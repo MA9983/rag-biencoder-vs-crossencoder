@@ -1,0 +1,5 @@
+,mean_ms,median_ms,p95_ms
+Pipeline 1: bi-encoder top-10 (retrieval only),12.38,12.18,15.27
+Cross-encoder re-rank of 10 pairs,628.77,670.03,774.2
+Pipeline 2: bi-encoder + re-rank (retrieval only),641.15,680.93,787.4
+Gemini answer generation (per call),1550.2811496553477,1377.1845689916518,2259.3182169948705
