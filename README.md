@@ -1,7 +1,5 @@
 # RAG: Bi-Encoder Baseline vs. Cross-Encoder Re-Ranking
 
-LMA Assignment 1 · Roll No. 2025201029
-
 This repo compares two retrieval pipelines over the same chunked document:
 
 - **Pipeline 1 (baseline):** a bi-encoder (`all-MiniLM-L6-v2`) and a FAISS index retrieve the top 10 chunks by cosine similarity. The top 3 go to the LLM and produce **Answer 1**.
